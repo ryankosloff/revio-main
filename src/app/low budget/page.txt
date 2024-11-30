@@ -1,0 +1,18 @@
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+
+export default function LowBudgetPage() {
+  return (
+    <div className="min-h-screen bg-black text-white flex items-center justify-center p-6">
+      <div className="max-w-2xl mx-auto text-center space-y-8">
+        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">We're Sorry</h1>
+        <p className="text-xl text-gray-400">
+          Thank you for your interest. Unfortunately, we cannot proceed with your request at this time due to budget constraints.
+        </p>
+        <Button asChild className="bg-green-500 hover:bg-green-600 text-black font-semibold">
+          <Link href="/questionnaire">Return to Questionnaire</Link>
+        </Button>
+      </div>
+    </div>
+  )
+}
