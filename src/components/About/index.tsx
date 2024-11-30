@@ -16,7 +16,7 @@ export default function About() {
 					</span>
 				</div>
 
-				<Link href={"https://calendly.com/d/cqmk-fm4-jch"} target="_blank">
+				<Link href="/questionnaire">Account Recovery</Link>
 					<ShimmerButton className="w-70 h-14 text-lg">
 						Contact Our Recovery Specialists{" "}
 					</ShimmerButton>
