@@ -27,10 +27,14 @@ export default function Header() {
 						Whitepaper
 					</span>
 				</Link>
-
 				<Link href={"/about"}>
 					<span className="font-semibold hover:text-muted-foreground transition-all duration-300 cursor-pointer">
 						About
+					</span>
+				</Link>
+				<Link href={"/pricing"}>
+					<span className="font-semibold hover:text-muted-foreground transition-all duration-300 cursor-pointer">
+						Pricing
 					</span>
 				</Link>
 				<Link href={"https://calendly.com/d/cqmk-fm4-jch"} target="_blank">
@@ -73,7 +77,17 @@ export default function Header() {
 											className="w-full rounded-3xl flex items-center justify-start"
 										>
 											<span className="text-base font-semibold text-white transition-all duration-300 cursor-pointer">
-												About	
+												About
+											</span>
+										</Button>
+									</Link>
+									<Link href={"/pricing"}>
+										<Button
+											variant={"outline"}
+											className="w-full rounded-3xl flex items-center justify-start"
+										>
+											<span className="text-base font-semibold text-white transition-all duration-300 cursor-pointer">
+												Pricing
 											</span>
 										</Button>
 									</Link>
